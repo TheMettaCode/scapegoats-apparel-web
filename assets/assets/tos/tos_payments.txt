@@ -1,0 +1,7 @@
+PAYMENTS AND PROCESSING
+
+[AFFILIATION]
+
+By using this application or website, you agree and accept that payments made for the purchase of products and services offered by Company are processed by MettaCode Developers (Payment Processor) via one or more payment processing accounts managed and or administered by Payment Processor, including but not limited to  Stripe, PayPal, or other payment processing accounts.
+
+You futher agree to the Stripe End User Terms of Service which can be found at https://stripe.com/legal/end-users.
