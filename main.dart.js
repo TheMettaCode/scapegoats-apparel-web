@@ -31594,8 +31594,8 @@ break
 case 1:return A.q(q,r)
 case 2:return A.p(o,r)}})
 return A.r($async$ie,r)},
-ox(a){return A.bh9(a)},
-bh9(a){var s=0,r=A.t(t.y2),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c,b
+ox(a){return A.bha(a)},
+bha(a){var s=0,r=A.t(t.y2),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$ox=A.u(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:d={}
 d.a=new A.eC(!1,"[GSHEETS API INSERT EMAIL DATA] Initial response data to be updated upon return of function.")
@@ -31788,8 +31788,8 @@ break
 case 6:case 1:return A.q(q,r)
 case 2:return A.p(o,r)}})
 return A.r($async$kw,r)},
-vK(a){return A.bha(a)},
-bha(a){var s=0,r=A.t(t.y2),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
+vK(a){return A.bh9(a)},
+bh9(a){var s=0,r=A.t(t.y2),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$vK=A.u(function(b,a0){if(b===1){o=a0
 s=p}while(true)switch(s){case 0:j=new A.eC(!1,"[GSHEETS API INSERT PRODUCT DATA] Initial response data to be updated upon return of function.")
 s=3
@@ -116693,7 +116693,7 @@ s=h.length!==0?11:13
 break
 case 11:g=j.ax
 g=g==null?null:g.a
-e=j.Q?B.j0:B.j1
+e=j.Q?B.j1:B.j0
 d=j.e.a.a
 c=j.as
 a1=j.at
@@ -127136,8 +127136,8 @@ $.b1J=null
 $.b1c=null
 $.b4s=null
 $.aPu=null
-$.aZ0=A.a(["https://www.dropbox.com/scl/fi/4v77br52xoxk3tng6i0zm/all-over-print-duffle-bag-white-front-653c80a2b5dea.png?rlkey=w5ptcxoz1rxffh3z98colmb13&raw=1","https://www.dropbox.com/scl/fi/9gda4kny3fn4pqwk9qilb/embroidered-sports-jersey-black_transparent.png?rlkey=2aellu23bypjeg9d72jgx956s&raw=1","https://www.dropbox.com/scl/fi/r2bmowmqf8qfc0bz2yfle/sg_active.png?rlkey=204ohoz9f5awqikhjj4bfr6b6&raw=1","https://www.dropbox.com/scl/fi/jeg5ayk8y4l473u4ncde9/sg_leggings.png?rlkey=sf34cm73y1vrcb5cbz4wsb1mt&raw=1","https://www.dropbox.com/scl/fi/u4hslaxxl5j6znfg541xo/sj_active.png?rlkey=cix2mpe9lp48tqx4ol0i1iu1g&raw=1","https://www.dropbox.com/scl/fi/1iwgt17glm5mrqpe35j37/sg_bandana_cap.png?rlkey=eymeumntvnv018sh3x7d0vtd0&raw=1"],t.s)
-$.baX=A.a(["https://www.dropbox.com/scl/fi/xxwxqndsiuxoxqyztec2l/SG_Original_Hoodie_H1000.png?rlkey=8sxsswn1fd0im05g37mluvq35&raw=1","https://www.dropbox.com/scl/fi/lkpkbzp7tgxectbh595xx/SG-Womens_Vneck_back-ShortE.jpg?rlkey=h0axlt0p0r3tbgukd0t9580zu&raw=1","https://www.dropbox.com/scl/fi/m3lenw2xacal4cm99hngn/embroidered-sports-jersey-black_jumprope.png?rlkey=plgj6976w5jmxvhthip4gooqn&raw=1"],t.s)
+$.aZ0=A.a(["https://www.dropbox.com/scl/fi/4v77br52xoxk3tng6i0zm/all-over-print-duffle-bag-white-front-653c80a2b5dea.png?rlkey=w5ptcxoz1rxffh3z98colmb13&raw=1","https://www.dropbox.com/scl/fi/9gda4kny3fn4pqwk9qilb/embroidered-sports-jersey-black_transparent.png?rlkey=2aellu23bypjeg9d72jgx956s&raw=1","https://www.dropbox.com/scl/fi/r2bmowmqf8qfc0bz2yfle/sg_active.png?rlkey=204ohoz9f5awqikhjj4bfr6b6&raw=1","https://www.dropbox.com/scl/fi/jeg5ayk8y4l473u4ncde9/sg_leggings.png?rlkey=sf34cm73y1vrcb5cbz4wsb1mt&raw=1","https://www.dropbox.com/scl/fi/u4hslaxxl5j6znfg541xo/sj_active.png?rlkey=cix2mpe9lp48tqx4ol0i1iu1g&raw=1","https://www.dropbox.com/scl/fi/8u6yzkpbattyg06gh5z17/all-over-print-backpack-white-front-654f1a800e348.png?rlkey=tyjngykm4nirs2fml0a6tfzeg&raw=1","https://www.dropbox.com/scl/fi/1iwgt17glm5mrqpe35j37/sg_bandana_cap.png?rlkey=eymeumntvnv018sh3x7d0vtd0&raw=1"],t.s)
+$.baX=A.a(["https://www.dropbox.com/scl/fi/xxwxqndsiuxoxqyztec2l/SG_Original_Hoodie_H1000.png?rlkey=8sxsswn1fd0im05g37mluvq35&raw=1","https://www.dropbox.com/scl/fi/lkpkbzp7tgxectbh595xx/SG-Womens_Vneck_back-ShortE.jpg?rlkey=h0axlt0p0r3tbgukd0t9580zu&raw=1","https://www.dropbox.com/scl/fi/m3lenw2xacal4cm99hngn/embroidered-sports-jersey-black_jumprope.png?rlkey=plgj6976w5jmxvhthip4gooqn&raw=1","https://www.dropbox.com/scl/fi/s5hqkq0u373zbkj5iwoav/all-over-print-backpack-white-front-654f1a800dfbb.png?rlkey=1brdnlpoisp3r7dn78zut0mei&raw=1"],t.s)
 $.aZ_=A.a(["assets/photos/model_girl_color.png","assets/photos/sg_hoodie.png","assets/photos/sg_short_e.jpg","assets/sg_blame_3d.png","assets/photos/world_map.png"],t.s)
 $.beR=A.w(t.S,A.ab("bs2"))
 $.b0M=null
