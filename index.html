@@ -50,13 +50,23 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1790081620";
+    const serviceWorkerVersion = "53909958";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
 
   <!-- Pinterest claim info -->
   <meta name="p:domain_verify" content="33206826b10e0bca6fb0428fd1ec041b"/>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L50NP0P04T"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-L50NP0P04T');
+  </script>
 
   <!-- !Import JS for stripe web payments -->
   <!-- <script src="https://js.stripe.com/v3/"></script>  -->
