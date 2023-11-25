@@ -114555,7 +114555,7 @@ $1(a){return a},
 $S:52}
 A.axF.prototype={
 $1(a){var s=null,r=A.fe(a),q=t.p
-return A.adW(s,B.G,A.e6(a,20,!1,!1,s,s,s,A.a([A.en(new A.a5(B.b0,A.bE(A.a([B.a92,new A.a5(B.b0,A.rZ(a),s),A.b__(!1,B.a9l,B.i,s,s,s,s,s,new A.axD(a),s,s)],q),B.m,B.r,B.ax),s),s,s,r)],q)),B.i,s,B.l9,s,s,s)},
+return A.adW(s,B.G,A.e6(a,20,!1,!1,s,s,s,A.a([A.en(new A.a5(B.b0,A.bE(A.a([B.a93,new A.a5(B.b0,A.rZ(a),s),A.b__(!1,B.a9l,B.i,s,s,s,s,s,new A.axD(a),s,s)],q),B.m,B.r,B.ax),s),s,s,r)],q)),B.i,s,B.l9,s,s,s)},
 $S:616}
 A.axD.prototype={
 $0(){A.cc(this.a,!1).dk(null)
@@ -116033,7 +116033,7 @@ r=A.eo(A.d2(B.M,A.a([r,!$.d9().a?B.l:A.ns(b4,a6,a6,!0,u.o)],n),B.A,B.Y,a6),B.k,1
 r=A.CK(a6,b4,a6,"Back",new A.aKY(a5,b4),"Go back")
 q=A.aYF("Clear",b4,B.qH,a8,new A.aKZ(a5))
 p=$.d9().a?A.cl(A.rZ(b4),15,15):B.M7
-return A.jJ(!0,A.Ic(b2,s,A.b2(a6,A.bD(A.a([r,B.cn,q,B.cn,A.hb(p,B.a90,a6,new A.aL_(a5,b4),a6)],t.p),B.m,B.ap,B.p),B.i,a6,a6,a6,a6,a6,a6,B.bq,a6,a6,a6),a6,!0,!0,a6,a6,a6),!1,B.N,!0)}}
+return A.jJ(!0,A.Ic(b2,s,A.b2(a6,A.bD(A.a([r,B.cn,q,B.cn,A.hb(p,B.a91,a6,new A.aL_(a5,b4),a6)],t.p),B.m,B.ap,B.p),B.i,a6,a6,a6,a6,a6,a6,B.bq,a6,a6,a6),a6,!0,!0,a6,a6,a6),!1,B.N,!0)}}
 A.aL7.prototype={
 $1(a){return this.a4V(a)},
 a4V(a){var s=0,r=A.t(t.H),q=this,p
@@ -116753,7 +116753,7 @@ j=A.d2(B.eK,A.a([A.b2(a0,A.aUG(a5,150,!1,!1,a7,!0,!1,!0),B.i,a0,B.FI,a0,a0,a0,a0
 i=$.pn()
 g=A.CK(a0,a5,a0,"Back",a0,"Go back")
 if(p&&!a3)q=B.l
-else{f=A.d3(A.hb(B.Mb,B.a9_,a0,new A.aLG(a5,a6,a7),a0),a0,a0,"Purchase product",a0,a0)
+else{f=A.d3(A.hb(B.Mb,B.a90,a0,new A.aLG(a5,a6,a7),a0),a0,a0,"Purchase product",a0,a0)
 q=A.d3(A.hb(B.qG,B.DU,a0,new A.aLH("\ufe0f\ud83d\udd25Check out this awesome SCAPEGOATS\u2122 Apparel product!\ud83d\udd25\nI thought you might be interested in "+q+" by "+a7.db+". You can get your own at https://apparel.scapegoatsusa.com.",a5,a7),a0),a0,a0,"Share",a0,a0)
 if(!a3)e=B.l
 else{e=a7.Q.c
@@ -117215,7 +117215,7 @@ else{k=A.fN(a1,a1,a1,a1,a1,a1,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1
 j=A.X(l).i("F<1,m>")
 j=A.L(new A.F(l,new A.atR(),j),!0,j.i("ak.E"))
 l=A.X(j).i("F<1,ec<m>>")
-l=A.k5(a1,k,a1,B.a91,!0,A.L(new A.F(j,new A.atS(),l),!0,l.i("ak.E")),new A.atT(a0),a1,new A.atU(),a1,t.N)}k=a0.x.cx
+l=A.k5(a1,k,a1,B.a92,!0,A.L(new A.F(j,new A.atS(),l),!0,l.i("ak.E")),new A.atT(a0),a1,new A.atU(),a1,t.N)}k=a0.x.cx
 j=k.length
 if(j===0)k=B.l
 else if(j===1)k=new A.a5(B.hT,A.ac("\t\tCOLOR: "+A.d(B.c.gR(k)),a1,a1,a1,A.ay(a1,a1,B.E,a1,a1,a1,a1,a1,a1,a1,a1,14,a1,a1,B.ah,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1),a1)
@@ -117252,7 +117252,7 @@ q=A.v(q)
 p=a0.c
 p.toString
 p=A.CK(a1,p,a1,"Back",a1,"Go back")
-o=A.d3(A.hb(B.Ma,B.a8Y,a1,new A.atO(a0),a1),a1,a1,"Clear all fields",a1,a1)
+o=A.d3(A.hb(B.Ma,B.a8Z,a1,new A.atO(a0),a1),a1,a1,"Clear all fields",a1,a1)
 n=a0.x
 n=n==null?a1:n.e
 m=t.p
@@ -117633,7 +117633,7 @@ i=A.v(a).ax
 l=i.y
 n=l==null?i.f:l
 n=A.a8(d,n.gm(n)>>>16&255,n.gm(n)>>>8&255,n.gm(n)&255)
-j=A.awl(A.b0e(A.a([new A.a5(B.pX,r,h),s,q,p,A.ahx(A.en(A.d3(A.mv(!1,h,h,h,!0,h,!1,A.br(B.LO,A.v(a).ax.c,h,h,h),h,h,!1,h,h,h,B.a93,h,h,h,h),!0,B.Ka,"After confirming your order details, a new web tab will open to input your payment details. All orders are process through our merchant partner MettaCode Developers",B.l5,B.aa3),n,h,j),B.aB,B.df)],o)),B.aw)
+j=A.awl(A.b0e(A.a([new A.a5(B.pX,r,h),s,q,p,A.ahx(A.en(A.d3(A.mv(!1,h,h,h,!0,h,!1,A.br(B.LO,A.v(a).ax.c,h,h,h),h,h,!1,h,h,h,h,h,B.a8Y,h,h),!0,B.Ka,"After confirming your order details, a new web tab will open to input your payment details. All orders are process through our merchant partner MettaCode Developers",B.l5,B.aa3),n,h,j),B.aB,B.df)],o)),B.aw)
 return A.PM(A.a([A.bD(A.a([A.CK(h,a,h,"Back",h,"Go back"),B.cn,A.b__(!1,B.a9p,B.i,h,h,h,h,h,new A.at1(e,a),h,h)],o),B.m,B.ap,B.p)],o),j,g,f)},
 $S:72}
 A.at1.prototype={
@@ -117822,7 +117822,7 @@ case 3:return A.q(null,r)}})
 return A.r($async$$1,r)},
 $S:213}
 A.aik.prototype={
-$1(a){return A.PM(A.a([A.fC(B.lw,B.nn,null,new A.aij(a))],t.p),B.a8Z,null,B.a9e)},
+$1(a){return A.PM(A.a([A.fC(B.lw,B.nn,null,new A.aij(a))],t.p),B.a9_,null,B.a9e)},
 $S:72}
 A.aij.prototype={
 $0(){A.cc(this.a,!1).dk(null)
@@ -126475,15 +126475,15 @@ B.a7Y=new A.A(!0,B.o,null,"Roboto",null,null,null,null,null,null,null,null,null,
 B.a7y=new A.A(!0,B.o,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.a8X=new A.eh(B.a7d,B.a8B,B.a8h,B.a5J,B.a88,B.a77,B.a8F,B.a6e,B.a6N,B.a81,B.a5A,B.a8i,B.a85,B.a7Y,B.a7y)
 B.DU=new A.c9("Share",null,null,null,null,null,null,null,null)
+B.a8Y=new A.c9("All payments are process through our merchant partner MettaCode Developers",null,null,null,null,null,null,null,null)
 B.nm=new A.c9("Thank You",null,null,null,null,null,null,null,null)
-B.a8Y=new A.c9("Clear",null,null,null,null,null,null,null,null)
-B.a8Z=new A.c9("Could not enable location services. If the issue persists, reinstalling the app may fix the problem.",null,null,null,null,null,null,null,null)
-B.a9_=new A.c9("Get This",null,null,null,null,null,null,null,null)
+B.a8Z=new A.c9("Clear",null,null,null,null,null,null,null,null)
+B.a9_=new A.c9("Could not enable location services. If the issue persists, reinstalling the app may fix the problem.",null,null,null,null,null,null,null,null)
+B.a90=new A.c9("Get This",null,null,null,null,null,null,null,null)
 B.DT=new A.A(!0,B.o,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a90=new A.c9("Add",null,B.DT,null,null,null,null,null,null)
-B.a91=new A.c9("Choose Size *",null,null,null,null,null,null,null,null)
-B.a92=new A.c9("Order In Process...\nClose this message once you complete your transaction.",null,B.eC,B.W,null,null,null,null,null)
-B.a93=new A.c9("Payments are process through our merchant partner MettaCode Developers",null,null,null,null,null,null,null,null)
+B.a91=new A.c9("Add",null,B.DT,null,null,null,null,null,null)
+B.a92=new A.c9("Choose Size *",null,null,null,null,null,null,null,null)
+B.a93=new A.c9("Order In Process...\nClose this message once you complete your transaction.",null,B.eC,B.W,null,null,null,null,null)
 B.a94=new A.c9("Please confirm your name and delivery address. Incorrect information will delay delivery of your order.",null,B.eC,null,null,null,null,null,null)
 B.a95=new A.c9("Contact",null,null,null,null,B.V,1,null,null)
 B.a96=new A.c9("Promote",null,null,null,null,null,null,null,null)
