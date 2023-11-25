@@ -50,7 +50,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1217125308";
+    const serviceWorkerVersion = "2989120378";
   </script>
   <!--! This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
@@ -67,80 +67,17 @@
 
     gtag('config', 'G-L50NP0P04T');
   </script>
-  
-  <!-- OneSignal SDK -->
-  <!-- <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer=""></script>
+
+  <!--! Onesignal Push info -->
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
   <script>
     window.OneSignalDeferred = window.OneSignalDeferred || [];
     OneSignalDeferred.push(function(OneSignal) {
       OneSignal.init({
         appId: "44df421e-f3e2-4937-a043-4b7af86c2434",
-    // safari_web_id: "web.onesignal.auto.20f3ee95-6f21-4aad-a9bb-9c5899a4353a",
-    // notifyButton: {
-    //   enable: true,
-    // },
-    // promptOptions: {
-    //   slidedown: {
-    //     prompts: [{
-    //         type: "smsAndEmail",
-    //         autoPrompt: false,
-    //         text: {
-    //           emailLabel: "Insert Email Address",
-    //           smsLabel: "Insert Phone Number",
-    //           acceptButton: "Submit",
-    //           cancelButton: "No Thanks",
-    //           actionMessage: "Receive the latest news, updates and offers as they happen.",
-    //           updateMessage: "Update your push notification subscription preferences.",
-    //           confirmMessage: "Thank You!",
-    //           positiveUpdateButton: "Save Preferences",
-    //           negativeUpdateButton: "Cancel",
-    //         },
-    //         delay: {
-    //           pageViews: 1,
-    //           timeDelay: 20
-    //         },
-    //       },
-    //       {
-    //         type: "category",
-    //         autoPrompt: true,
-    //         text: {
-    //           actionMessage: "We'd like to show you notifications for the latest news and updates.",
-    //           acceptButton: "Allow",
-    //           cancelButton: "Cancel",
-
-    //           /* CATEGORY SLIDEDOWN SPECIFIC TEXT */
-    //           negativeUpdateButton: "Cancel",
-    //           positiveUpdateButton: "Save Preferences",
-    //           updateMessage: "Update your push notification subscription preferences.",
-    //         },
-    //         delay: {
-    //           pageViews: 3,
-    //           timeDelay: 20
-    //         },
-    //         categories: [{
-    //             tag: "politics",
-    //             label: "Politics"
-    //           },
-    //           {
-    //             tag: "local_news",
-    //             label: "Local News"
-    //           },
-    //           {
-    //             tag: "world_news",
-    //             label: "World News",
-    //           },
-    //           {
-    //             tag: "culture",
-    //             label: "Culture"
-    //           },
-    //         ]
-    //       }
-    //     ]
-    //   }
-    // }
-  });
-});
-</script> -->
+      });
+    });
+  </script>
   
   
   
@@ -241,42 +178,6 @@
       });
     });
   </script>
-
-  
-<!-- <script>
-  var eUserID = document.getElementById('osUserID');
-  function getUserId() {
-    OneSignal.getUserId(function(osUserID) {
-      if (eUserID && osUserID) {
-        eUserID.value = osUserID;
-        }
-    });
-  }
-
-
-  OneSignal.push(function () {
-    OneSignal.isPushNotificationsEnabled(function(isEnabled) {
-      if (isEnabled) getUserId();
-    });
-    OneSignal.on('subscriptionChange', function (isSubscribed) {
-      if (isSubscribed) getUserId();
-    });
-  });
-
-  
-  function updateEmail(email) {
-    OneSignal.user.addEmail(email);
-  }
-  
-
-// OneSignal.getUserId((userId) => {
-//     if (userId == null){
-//         alert("Subscribe to Notification First")
-//         return
-//     }
-//     alert(`Player id: is ${userId}`);
-// });
-</script> -->
 
 
 </body></html>
