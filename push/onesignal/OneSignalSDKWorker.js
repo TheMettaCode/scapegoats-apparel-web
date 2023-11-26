@@ -1,0 +1,2 @@
+//! KEEP Until YYYY-MM-DD: Required for pushes to work correctly for users who have not re-visited to migrate to the new OneSignal specific ServiceWorker.
+importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js");
