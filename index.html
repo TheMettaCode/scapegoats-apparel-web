@@ -50,7 +50,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "3748575745";
+    const serviceWorkerVersion = "3403540713";
   </script>
   <!--! This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
@@ -75,11 +75,13 @@
     OneSignalDeferred.push(function(OneSignal) {
       OneSignal.init({
         appId: "44df421e-f3e2-4937-a043-4b7af86c2434",
+        autoResubscribe: true,
             notifyButton: {
                 enable: true
             },
             // serviceWorkerParam: { scope: "/push/onesignal/scope/" },
-            serviceWorkerPath: "push/onesignal/OneSignalSDKWorker.js",
+            path: "push/onesignal/OneSignalSDKWorker.js",
+            // serviceWorkerPath: "push/onesignal/OneSignalSDKWorker.js",
       });
     });
   </script>
