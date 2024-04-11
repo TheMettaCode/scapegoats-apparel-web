@@ -1,0 +1,35 @@
+{
+    "name": "SCAPEGOATS™ Apparel",
+    "short_name": "scapegoats_apparel",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#1b1b1b",
+    "theme_color": "#1b1b1b",
+    "description": "Providing products and apparel for those who take the blame, SCAPEGOATS™ Apparel is the mobile app for the SCAPEGOATS™ brand as well as associated signature brands and provides clothing and accessories to its customers.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
