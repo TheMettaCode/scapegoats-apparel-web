@@ -50,7 +50,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1087148094";
+    const serviceWorkerVersion = "2005843673";
   </script>
   <!--! This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
@@ -76,10 +76,11 @@
       OneSignal.init({
         appId: "44df421e-f3e2-4937-a043-4b7af86c2434",
         autoResubscribe: true,
-            notifyButton: {
-                enable: true
-            },
-            // serviceWorkerParam: { scope: "/push/onesignal/scope/" },
+        persistNotification: true,
+        notifyButton: {
+            enable: true
+        },
+            serviceWorkerParam: { scope: "/push/onesignal/scope/" },
             serviceWorkerPath: "push/onesignal/OneSignalSDKWorker.js",
       });
     });
@@ -195,6 +196,25 @@
       });
     });
   </script>
+
+  <!-- <script>
+    var eUserID = document.getElementById('osUserID');
+    function getUserId() {
+      OneSignal.getUserId(function(osUserID) {
+        if (eUserID && osUserID) {
+          eUserID.value = osUserID;
+          }
+      });
+    }
+    OneSignal.push(function () {
+      OneSignal.isPushNotificationsEnabled(function(isEnabled) {
+        if (isEnabled) getUserId();
+      });
+      OneSignal.on('subscriptionChange', function (isSubscribed) {
+        if (isSubscribed) getUserId();
+      });
+    });
+  </script> -->
 
 
 </body></html>
