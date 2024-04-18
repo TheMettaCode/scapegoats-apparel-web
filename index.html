@@ -50,7 +50,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "651008080";
+    const serviceWorkerVersion = "1660185549";
   </script>
   <!--! This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
@@ -69,7 +69,8 @@
   </script>
 
   <!--! Onesignal Push info -->
-  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer=""></script>
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <!-- <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer=""></script> -->
   <script>
     window.OneSignalDeferred = window.OneSignalDeferred || [];
     OneSignalDeferred.push(function(OneSignal) {
@@ -80,8 +81,32 @@
         notifyButton: {
             enable: true
         },
-        // serviceWorkerParam: { scope: "/push/onesignal/js/" },
+        serviceWorkerParam: { scope: "/push/onesignal/js/" },
         serviceWorkerPath: "push/onesignal/OneSignalSDKWorker.js",
+        promptOptions: {
+          slidedown: {
+            prompts: [{
+                type: "email",
+                autoPrompt: false,
+                text: {
+                  emailLabel: "Insert Email Address",
+                  // smsLabel: "Insert Phone Number",
+                  acceptButton: "Submit",
+                  cancelButton: "No Thanks",
+                  actionMessage: "Receive the latest news, updates and offers as they happen.",
+                  updateMessage: "Update your push notification subscription preferences.",
+                  confirmMessage: "Thank You!",
+                  positiveUpdateButton: "Save Preferences",
+                  negativeUpdateButton: "Cancel",
+                },
+                delay: {
+                  pageViews: 1,
+                  timeDelay: 20
+                },
+              },
+            ]
+          }
+    }
       });
     });
   </script>
